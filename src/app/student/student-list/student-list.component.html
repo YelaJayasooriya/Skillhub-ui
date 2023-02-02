@@ -1,0 +1,32 @@
+<div class="container">
+    <table class="table table-bordered table-striped">
+      <thead>
+      <tr>
+        <!--th>ID</th-->
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Password</th>
+      </tr></thead>
+      <tbody>
+      <tr *ngFor="let student of studentList"-->
+        <tr>
+          <td>{{_id}}</td>
+          <td>{{first_name}}</td>
+          <td>{{last_name}}</td>
+          <td>{{email}}</td>
+          <td>{{password}}</td>
+        </tr></tbody>
+    <div class="border">
+<a [routerLink]="'add'">Student</a></div>
+      
+      <td>
+        <button class="btn btn-sm btn-info">
+          <i class="fa fa-search"></i>Details</button>
+        <button class="btn btn-sm btn-warning">
+          <i class="fa fa-edit"></i>Edit</button>
+        <button class="btn btn-sm btn-danger">
+          <i class="fa fa-remove"></i>Delete</button>
+      </td>
+ </table>
+</div>

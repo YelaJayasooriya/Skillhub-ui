@@ -1,0 +1,27 @@
+.foot{
+    font-family: 'Georgia', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: #520047;
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    
+}
+
+h6{
+    font-style: italic;
+    background-color: #520047;
+
+}
+h6:hover{
+    background-color: #a787a2;
+
+}
+
+.cpr{
+    background-color: rgba(0, 0, 0, 0.2);
+    height:50px;
+    text-align: center;
+    padding: 10px 10px;
+    color: rgb(253, 190, 237);
+}
